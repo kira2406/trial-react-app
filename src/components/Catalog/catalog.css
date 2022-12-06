@@ -1,0 +1,26 @@
+.container {
+  background-color: #e6e6fa;
+  width: 100%;
+  height: 100%;
+}
+
+.container h2 {
+  font-family: 'Dancing Script';
+}
+
+.catalogContainer {
+  padding: 20px;
+}
+
+.productContainer {
+  padding: 10px;
+}
+
+.searchBoxContainer {
+  padding: 40px 100px;
+}
+
+.imageContainer {
+  height: 200px;
+  width: 200px;
+}
