@@ -9,12 +9,15 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
 
+  const [selectedProduct, setSelectedProduct] = useState(null)
+  const [productList, setProductList] = useState([])
+
   return (
     <div className='App'>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Catalog />} />
-          <Route path='/product' element={<Product />} />
+          <Route path='/' element={<Catalog setSelectedProduct={setSelectedProduct} products={productList} setProductList={setProductList} />} />
+          <Route path='/product' element={<Product selectedProduct={selectedProduct} />} />
         </Routes>
       </BrowserRouter>
     </div>

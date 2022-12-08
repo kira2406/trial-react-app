@@ -1,0 +1,13 @@
+.productContainer {
+  padding: 20px;
+}
+
+.container {
+  background-color: #e6e6fa;
+  width: 100%;
+  height: 100%;
+}
+
+.container h2 {
+  font-family: 'Dancing Script';
+}
